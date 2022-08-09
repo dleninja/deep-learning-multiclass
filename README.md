@@ -1,2 +1,3 @@
-# deep_learning_multiclass
-Deep Learning for multiclass classification
+# Deep Learning for Multiclass Classification
+
+In this repository, I will be showing an example of multiclass classification using a publicly available dataset.
