@@ -4,6 +4,6 @@ There are many different tasks that can be performed using deep learning models,
 
 An example could be a dataset of the outdoors. In each image, there could be a person, a cat, car, etc. The images in that dataset can have multiple labels. Whereas a dataset with images with cat only, people only, and car only images, would be considered a multiclass dataset.
 
-![There are three types of classification problems, binary, multiclass and multilabel classification.](https://github.com/dleninja/deep_learning_multiclass/blob/main/misc/types_of_classification_examples.png)
+![There are three types of classification problems, binary, multiclass and multilabel classification.](/misc/types_of_classification_examples.png)
 
 In this repository, I will be showing an example of multiclass classification using a publicly available dataset. For example online datasets, they are available with this [link](https://imerit.net/blog/22-free-image-datasets-for-computer-vision-all-pbm/).
