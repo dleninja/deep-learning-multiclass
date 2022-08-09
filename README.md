@@ -6,10 +6,8 @@ An example could be a dataset of the outdoors. In each image, there could be a p
 
 ![There are three types of classification problems, binary, multiclass and multilabel classification.](/misc/types_of_classification_examples.png)
 
-<p align="center">
-
 <sub> Example of three types of classification problems, binary, multiclass and multilabel classification. [Image source](https://www.mathworks.com/help/deeplearning/ug/multilabel-image-classification-using-deep-learning.html)</sub>
 
-</p>
+---
 
 In this repository, I will be showing an example of multiclass classification using a publicly available dataset. For example online datasets, they are available with this [link](https://imerit.net/blog/22-free-image-datasets-for-computer-vision-all-pbm/).
