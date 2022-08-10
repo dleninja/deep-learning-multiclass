@@ -10,7 +10,13 @@ An example could be a dataset of the outdoors. In each image, there could be a p
 
 ---
 
-Deep learning uses convolutional neural networks, that can automatically learn features from the image and use these features for classification. To train a classifier into one of the three types, it is important to specify the type of ground truth data.
+In traditional machine learning, the user would have to develop features as input into the machine learning model, e.g., support vector machine, neural network, etc. For example, the Iris Flower Dataset, the features of that dataset include the sepal length, sepal width, petal length and petal width. This process can be time consuming to both develop and extract from the image. Furthermore, it may exclude certain information that is intrinsic to the image. Deep learning, on the other hand, uses convolutional neural networks, that can automatically learn features from the image and use these features for classification. This concept of automatic feature learning helped contribute to the potential of deep learning in a wide range of applications.
+
+![A convolutional neural network has two parts, the feature learning stage and the decision making stage, i.e., the classifier.](/misc/neural_network_diagram.png)
+
+<sub> Example of a convolutional neural network. [Image source](https://www.run.ai/guides/deep-learning-for-computer-vision/deep-convolutional-neural-networks)</sub>
+
+To train a classifier into one of the three types, it is important to specify the type of ground truth data.
 
 For instance in the binary classification, the desired output could be a vector with two elements, where each element is equal to 1 or 0. If one element is equal to 1, the other is equal to 0.
 > Example:
