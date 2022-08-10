@@ -46,6 +46,13 @@ In the multilabel classification, the desired output could be a vector, where ea
 > For x<sub>3</sub>: y<sub>3</sub> = [1 0 1]
 
 ---
+# Dependencies
+
+> Python: 3.8.10 
+
+> Tensorflow: 2.9.1
+
+---
 # Endnotes:
 
 There are actually two ways to design a binary classifier using a CNN. One way, which is mentioned above with the number of output neurons being equal to 2. In that case the ground truth will be a vector of length 2, e.g., [1 0]. Typically the activation function would be a softmax function. However, it the number of neurons could be equal to 1, in this case the ground truth will be a single value, that can be equal to 1 or 0. The activation function would be a sigmoid function. 
