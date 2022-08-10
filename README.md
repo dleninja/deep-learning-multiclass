@@ -12,6 +12,8 @@ An example could be a dataset of the outdoors. In each image, there could be a p
 
 In traditional machine learning, the user would have to develop features as input into the machine learning model, e.g., support vector machine, neural network, etc. For example, the Iris Flower Dataset, the features of that dataset include the sepal length, sepal width, petal length and petal width. This process can be time consuming to both develop and extract from the image. Furthermore, it may exclude certain information that is intrinsic to the image. Deep learning, on the other hand, uses convolutional neural networks, that can automatically learn features from the image and use these features for classification. This concept of automatic feature learning helped contribute to the potential of deep learning in a wide range of applications.
 
+To develop and customize your CNN for your specific task, one of the important parameters to change is the number of neurons in the final layer. The neurons in the final layer (the fully connected layer) is the output of your model. For example in the case of a multiclass classifier, that is predicting 100 different categories, the final layer should contain 100 neurons. Whereas if is binary classification, then there should only be 2 neurons.
+
 ![A convolutional neural network has two parts, the feature learning stage and the decision making stage, i.e., the classifier.](/misc/neural_network_diagram.png)
 
 <sub> Example of a convolutional neural network. [Image source](https://www.run.ai/guides/deep-learning-for-computer-vision/deep-convolutional-neural-networks)</sub>
@@ -44,6 +46,8 @@ In the multilabel classification, the desired output could be a vector, where ea
 > For x<sub>3</sub>: y<sub>3</sub> = [1 0 1]
 
 ---
+# Endnotes:
 
+---
 
 In this repository, I will be showing an example of multiclass classification using a publicly available dataset. For example online datasets, they are available with this [link](https://imerit.net/blog/22-free-image-datasets-for-computer-vision-all-pbm/).
