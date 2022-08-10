@@ -20,7 +20,13 @@ For instance in the binary classification, the desired output could be a vector 
 > For x<sub>2</sub>: y<sub>2</sub> = [0 1]
 
 In the multiclass classification, the desired output could be a vector, where each element is equal to 1 or 0, and if one element is equal to 1, the remaining elements are equal to 0.
-
+> Example:
+> 
+> For x<sub>1</sub>: y<sub>1</sub> = [1 0 0]
+> 
+> For x<sub>2</sub>: y<sub>2</sub> = [0 1 0]
+> 
+> For x<sub>3</sub>: y<sub>3</sub> = [0 0 1]
 
 ---
 
