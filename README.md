@@ -18,7 +18,7 @@ To develop and customize your CNN for your specific task, one of the important p
 
 <sub> Example of a convolutional neural network. [Image source](https://www.run.ai/guides/deep-learning-for-computer-vision/deep-convolutional-neural-networks)</sub>
 
-To train a classifier into one of the three types, it is important to specify the type of ground truth data.
+The second step after the network design is to specify the type of ground truth data. The ground truth will match the number of neurons. Example of the different types of classification and corresponding ground truth is illustrated in the following section.
 
 For instance in the binary classification, the desired output could be a vector with two elements, where each element is equal to 1 or 0. If one element is equal to 1, the other is equal to 0.
 > Example:
