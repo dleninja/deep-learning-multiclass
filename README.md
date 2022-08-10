@@ -12,9 +12,14 @@ An example could be a dataset of the outdoors. In each image, there could be a p
 
 Deep learning uses convolutional neural networks, that can automatically learn features from the image and use these features for classification. To train a classifier into one of the three types, it is important to specify the type of ground truth data.
 
-For instance in the binary classification, the desired output could be a vector with two elements, where each element is equal to 1 or 0.
+For instance in the binary classification, the desired output could be a vector with two elements, where each element is equal to 1 or 0. If one element is equal to 1, the other is equal to 0.
+> Example:
+> 
+> For x<sub>1</sub>: y<sub>1</sub> = [1 0]
+> 
+> For x<sub>2</sub>: y<sub>2</sub> = [0 1]
 
-In the multiclass classification, the desired output could be a vector, where each element is equal to 1 or 0, and if one element is equal to 1, the remaining elements are equal to 0. Example:
+In the multiclass classification, the desired output could be a vector, where each element is equal to 1 or 0, and if one element is equal to 1, the remaining elements are equal to 0.
 
 
 ---
