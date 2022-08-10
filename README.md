@@ -48,6 +48,8 @@ In the multilabel classification, the desired output could be a vector, where ea
 ---
 # Endnotes:
 
+There are actually two ways to design a binary classifier using a CNN. One way, which is mentioned above with the number of output neurons being equal to 2. In that case the ground truth will be a vector of length 2, e.g., [1 0]. Typically the activation function would be a softmax function. However, it the number of neurons could be equal to 1, in this case the ground truth will be a single value, that can be equal to 1 or 0. The activation function would be a sigmoid function. 
+
 ---
 
 In this repository, I will be showing an example of multiclass classification using a publicly available dataset. For example online datasets, they are available with this [link](https://imerit.net/blog/22-free-image-datasets-for-computer-vision-all-pbm/).
